@@ -1,0 +1,108 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family= Ubuntu & display=swap');
+body{
+    background: rgb(22,55,140);
+    background: linear-gradient(180deg, rgba(22,55,140,1) 0%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.conteiner{
+    background-color: rgb(54, 40, 177);
+    box-shadow: rgba(0, 0, 0, -24) 0px 3px 8px;
+    padding: 2rem;
+    color: white;
+    border-radius: 1rem;
+
+}
+
+.hide{
+    display: none;
+}
+
+.form h3{
+    margin-bottom: 1rem;
+}
+
+#input-cidade {
+    padding: 0.8rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+
+}
+
+.form #pesquisa{
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #8dd0f5;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
+
+
+/*CLIMA*/
+
+#tempo-dados{
+    border-top: 1px solid white;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+#tempo-dados h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+#tempo-dados h2 i{
+    font-size: 1rem;
+}
+
+#tempo-dados span{
+    margin: .6rem;
+}
+
+#bandeira{
+    height: 25px;
+}
+
+#descricao-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem 0px;
+}
+#temperatura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#detalhes-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#umidade{
+    border-right: 1px solid white;
+    margin: .6rem;
+    padding: 0.6rem;
+}
+
